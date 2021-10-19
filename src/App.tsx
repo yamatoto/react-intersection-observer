@@ -1,24 +1,54 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>10=============</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>20=============</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>30=============</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>dummy</div>
+      <div>40=============</div>
+      <InfiniteScroll />
     </div>
   );
 }
